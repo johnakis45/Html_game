@@ -1,0 +1,74 @@
+.ex1
+    {
+      position: relative;
+      top: 0;
+      left: 0;
+    }
+    .ex2
+    {
+      position: absolute;
+      top: 60px;
+      left: 80px;
+    }
+
+table,td {padding: 0px; margin: 0px; cellspacing: 0; cellpadding:0; 
+ border-collapse:collapse; border-spacing: 0px;  border:none; 
+}
+
+body{
+  text-align:center;
+  background-color: rgba(53, 187, 122);
+}
+
+table.center {
+  margin-left:auto; 
+  margin-right:auto;
+}
+
+.infobox{
+  width: 500px;
+  height: 80px;
+  border-color: black;
+  background-color: black;
+  border-style: solid;
+  margin-left:auto; 
+  margin-right:auto;
+}
+
+.diceBox{
+  border-color: black;
+  background-color: rgb(53, 187, 122);
+  border-style: solid;
+  width: 20%; 
+  height: 100%;
+  float:left
+}
+
+.info{
+  border-color: black;
+  background-color: rgb(53, 187, 122);
+  border-style: solid;
+  width: 78%; 
+  height: 100%;
+  float:right
+}
+
+.diceImage{
+  background-color: aliceblue;
+  border-radius: 5px;
+  max-width:50%;
+  max-height:50%;
+  margin-left: 37%;
+  margin-top: 3%;
+
+}
+
+.pythonimg{
+    max-height: 30%;
+    max-width: 30%;
+    margin-left: 50%;
+    margin-top: 3%;
+}
+
+
+img { display:block;   }
